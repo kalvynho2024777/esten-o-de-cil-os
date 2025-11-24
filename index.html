@@ -1,0 +1,172 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ketlyn Silva | Extensão de Cílios</title>
+    <meta name="description" content="Extensão de cílios fio a fio, volume russo, híbrido e mega volume. Agende seu horário com Ketlyn Silva!">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+   
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #fdf2f8 0%, #f8f9ff 100%);
+            color: #444;
+            line-height: 1.6;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1616159059179-ab5c96f3f4e6?w=1600&q=80') center/cover no-repeat;
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+        .hero {
+            position: relative;
+            z-index: 2;
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 4.5rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background: #d81b60;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover { background: #ad1457; transform: scale(1.05); }
+
+
+        section { padding: 80px 20px; text-align: center; }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3rem;
+            color: #c2185b;
+            margin-bottom: 40px;
+        }
+        .servicos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            width: 300px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 { padding: 20px 20px 10px; font-size: 1.5rem; color: #c2185b; }
+        .card p { padding: 0 20px 20px; font-size: 0.95rem; }
+
+
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25d366;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            z-index: 1000;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37,211,102,0); }
+            100% { box-shadow: 0 0 0 0 rgba(37,211,102,0); }
+        }
+
+
+        footer {
+            background: #2c1338;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <div class="hero">
+            <h1>Studio Ketlyn Silva</h1>
+            <p>Seu olhar mais poderoso e encantador</p>
+            <a href="https://wa.me/5547999999999?text=Oi%20Ketlyn!%20Quero%20agendar%20meu%20hor%C3%A1rio" class="btn" target="_blank">
+                Agende seu horário pelo WhatsApp
+            </a>
+        </div>
+    </header>
+
+
+    <section>
+        <h2>Nossos Serviços</h2>
+        <div class="servicos">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1621095063298-7f0e4d3f6b0c?w=800&q=80" alt="Clássico">
+                <h3>Fio a Fio Clássico</h3>
+                <p>Efeito natural e elegante. Perfeito para quem busca delicadeza.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1633976732759-17c269a6b2c7?w=800&q=80" alt="Volume Russo">
+                <h3>Volume Russo</h3>
+                <p>Mais volume e dramaticidade com leveza incrível.</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1616394080756-0a0d6d7b3a4e?w=800&q=80" alt="Híbrido">
+                <h3>Híbrido & Mega Volume</h3>
+                <p>O máximo de volume para um olhar marcante e impactante.</p>
+        </div>
+    </section>
+
+
+    <a href="https://wa.me/5547999999999?text=Oi%20Ketlyn!%20Quero%20agendar%20meu%20hor%C3%A1rio" target="_blank" class="whatsapp">
+       
+    </a>
+
+
+    <footer>
+        
+    </footer>
